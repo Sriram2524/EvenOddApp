@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 70vh;
+  width: 50vw;
+  padding-bottom: 30px;
+}
+.heading {
+  color: #0f172a;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 50px;
+}
+.evenorodd {
+  font-size: 30px;
+  font-family: roboto;
+  color: #334155;
+}
+.button {
+  background-color: white;
+  color: #334155;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  padding-right: 20px;
+}
